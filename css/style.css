@@ -1,0 +1,33 @@
+* {
+  text-decoration: none;
+  background: #707171;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container{
+    /* background: #000; */
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.logo{
+    font-size: 29px;
+    margin-left: 70px;
+}
+nav a{
+    font-size: 20px;
+    padding: 0 0 0 60px;
+}
+nav a:last-child{
+    margin: 0 0 0 140px;
+    padding: 0 px 0 0;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+.flate-btn{
+    background-color: yellow;
+    padding: 15px;
+}
